@@ -86,3 +86,4 @@ jobs:
               python3 -m pip install -r requirements_test.txt && \
               python3 -m pytest -p no:spark -m "not spark_test" && \
               deactivate'
+
